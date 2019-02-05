@@ -1,0 +1,50 @@
+.ptrdemo.auto            { cursor: auto; }
+.ptrdemo.deafult         { cursor: default; }
+.ptrdemo.none            { cursor: none; }
+.ptrdemo.context-menu    { cursor: context-menu; }
+.ptrdemo.help            { cursor: help; }
+.ptrdemo.pointer         { cursor: pointer; }
+.ptrdemo.progress     	 { cursor: progress; }
+.ptrdemo.wait            { cursor: wait; }
+.ptrdemo.cell            { cursor: cell; }
+.ptrdemo.crosshair       { cursor: crosshair; }
+.ptrdemo.text            { cursor: text; }
+.ptrdemo.vertical-text   { cursor: vertical-text; }
+.ptrdemo.alias           { cursor: alias; }
+.ptrdemo.copy            { cursor: copy; }
+.ptrdemo.move            { cursor: move; }
+.ptrdemo.no-drop         { cursor: no-drop; }
+.ptrdemo.not-allowed     { cursor: not-allowed; }
+.ptrdemo.all-scroll      { cursor: all-scroll; }
+.ptrdemo.col-resize      { cursor: col-resize; }
+.ptrdemo.row-resize      { cursor: row-resize; }
+.ptrdemo.n-resize        { cursor: n-resize; }
+.ptrdemo.e-resize        { cursor: e-resize; }
+.ptrdemo.s-resize        { cursor: s-resize; }
+.ptrdemo.w-resize        { cursor: w-resize; }
+.ptrdemo.ns-resize       { cursor: ns-resize; }
+.ptrdemo.ew-resize       { cursor: ew-resize; }
+.ptrdemo.ne-resize       { cursor: ne-resize; }
+.ptrdemo.nw-resize       { cursor: nw-resize; }
+.ptrdemo.se-resize       { cursor: se-resize; }
+.ptrdemo.sw-resize       { cursor: sw-resize; }
+.ptrdemo.nesw-resize     { cursor: nesw-resize; }
+.ptrdemo.nwse-resize     { cursor: nwse-resize; }
+
+.cursors > div {
+	float: left;
+	box-sizing: border-box;
+	background:#f2f2f2;
+	border:1px solid #ccc;
+	width: 20%;
+	height:auto;
+	padding: 10px 2px;
+	text-align: center;  
+	white-space: nowrap;
+	&:nth-child(even) {
+		background: #eee;     
+	}
+	&:hover {
+		opacity: 0.25
+	}
+}
